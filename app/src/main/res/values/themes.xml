@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Lab2" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="Theme.Lab2" parent="Base.Theme.Lab2" />
+
+    <style name="Widget.App.Button" parent="Widget.MaterialComponents.Button">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Button</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Button" parent="">
+        <item name="strokeColor">#505050</item>
+        <item name="strokeWidth">7dp</item>
+        <item name="shapeAppearance">@style/ShapeButton</item>
+        <item name="android:text">@string/new_btn</item>
+        <item name="android:backgroundTint">#0f9d58</item>
+    </style>
+
+    <style name="ShapeButton" parent="ShapeAppearance.M3.Comp.TextButton.Container.Shape">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.ShapeAppearance</item>
+    </style>
+
+    <style name="ThemeOverlay.App.ShapeAppearance" parent="">
+        <item name="cornerRadius">24dp</item>
+    </style>
+</resources>

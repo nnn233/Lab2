@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="btn1">Button 1</string>
+    <string name="btn2">Button 2</string>
+    <string name="btn3">Button 3</string>
+    <string name="btn4">Button 4</string>
+    <string name="btn5">Button 5</string>
+    <string name="btn6">Button 6</string>
+    <string name="btn7">Button 7</string>
+    <string name="left">Left 50%</string>
+    <string name="right">Right 50%</string>
+    <string name="bottom">Bottom</string>
+    <string name="center">Center</string>
+    <string name="center_left">Center_left</string>
+    <string name="center_right">Center_right</string>
+    <string name="new_btn">New button</string>
+</resources>
